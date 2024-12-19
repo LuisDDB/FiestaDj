@@ -1,0 +1,22 @@
+{
+  "name": "fiesta",
+  "version": "1.0.0",
+  "description": "Aprendiendo npm, sass, gulp",
+  "type": "module",
+  "scripts": {
+    "sass": "sass --watch src/scss:dist/css",
+    "dev": "gulp dev"
+  },
+  "keywords": [
+    "Saas",
+    "npm",
+    "Gulp"
+  ],
+  "author": "Luis @LuisDDB",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.80.6"
+  }
+}
